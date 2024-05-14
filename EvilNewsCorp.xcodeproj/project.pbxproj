@@ -13,6 +13,16 @@
 		1C46E7D92BEF62D7000B6DDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C46E7D72BEF62D7000B6DDA /* Main.storyboard */; };
 		1C46E7DB2BEF62D8000B6DDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C46E7DA2BEF62D8000B6DDA /* Assets.xcassets */; };
 		1C46E7DE2BEF62D8000B6DDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C46E7DC2BEF62D8000B6DDA /* LaunchScreen.storyboard */; };
+		1C46E7EA2BEF638D000B6DDA /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C46E7E62BEF638D000B6DDA /* Attribute.swift */; };
+		1C46E7EC2BEF638D000B6DDA /* FontKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C46E7E82BEF638D000B6DDA /* FontKit.swift */; };
+		1C46E7F12BEF7CB3000B6DDA /* JSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C46E7F02BEF7CB3000B6DDA /* JSONDecoder.swift */; };
+		1C46E7F32BEF7D78000B6DDA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C46E7F22BEF7D78000B6DDA /* MainViewController.swift */; };
+		1C46E8012BF0CAB2000B6DDA /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C46E8002BF0CAB2000B6DDA /* ArticleCell.swift */; };
+		1C46E8072BF22B5E000B6DDA /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C46E8062BF22B5E000B6DDA /* Post.swift */; };
+		1C46E80A2BF2497F000B6DDA /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 1C46E8092BF2497F000B6DDA /* Kingfisher */; };
+		1C46E80C2BF383E6000B6DDA /* JSONArticleDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C46E80B2BF383E6000B6DDA /* JSONArticleDecoder.swift */; };
+		1C46E8102BF38DA4000B6DDA /* BasicJSONData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C46E80F2BF38AF8000B6DDA /* BasicJSONData.json */; };
+		1C46E8132BF39667000B6DDA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C46E8122BF39667000B6DDA /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,15 @@
 		1C46E7DA2BEF62D8000B6DDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C46E7DD2BEF62D8000B6DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C46E7DF2BEF62D8000B6DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C46E7E62BEF638D000B6DDA /* Attribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attribute.swift; sourceTree = "<group>"; };
+		1C46E7E82BEF638D000B6DDA /* FontKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontKit.swift; sourceTree = "<group>"; };
+		1C46E7F02BEF7CB3000B6DDA /* JSONDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecoder.swift; sourceTree = "<group>"; };
+		1C46E7F22BEF7D78000B6DDA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1C46E8002BF0CAB2000B6DDA /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		1C46E8062BF22B5E000B6DDA /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		1C46E80B2BF383E6000B6DDA /* JSONArticleDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONArticleDecoder.swift; sourceTree = "<group>"; };
+		1C46E80F2BF38AF8000B6DDA /* BasicJSONData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BasicJSONData.json; sourceTree = "<group>"; };
+		1C46E8122BF39667000B6DDA /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C46E80A2BF2497F000B6DDA /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +78,54 @@
 			children = (
 				1C46E7D12BEF62D7000B6DDA /* AppDelegate.swift */,
 				1C46E7D32BEF62D7000B6DDA /* SceneDelegate.swift */,
-				1C46E7D52BEF62D7000B6DDA /* ViewController.swift */,
+				1C46E7E52BEF6367000B6DDA /* Helpers */,
+				1C46E8112BF38FE3000B6DDA /* Model */,
+				1C46E7F82BEF8208000B6DDA /* Views */,
+				1C46E7F92BEF82BA000B6DDA /* ViewControllers */,
 				1C46E7D72BEF62D7000B6DDA /* Main.storyboard */,
 				1C46E7DA2BEF62D8000B6DDA /* Assets.xcassets */,
 				1C46E7DC2BEF62D8000B6DDA /* LaunchScreen.storyboard */,
 				1C46E7DF2BEF62D8000B6DDA /* Info.plist */,
 			);
 			path = EvilNewsCorp;
+			sourceTree = "<group>";
+		};
+		1C46E7E52BEF6367000B6DDA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1C46E7E62BEF638D000B6DDA /* Attribute.swift */,
+				1C46E7E82BEF638D000B6DDA /* FontKit.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1C46E7F82BEF8208000B6DDA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1C46E8122BF39667000B6DDA /* MainView.swift */,
+				1C46E8002BF0CAB2000B6DDA /* ArticleCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1C46E7F92BEF82BA000B6DDA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1C46E7D52BEF62D7000B6DDA /* ViewController.swift */,
+				1C46E7F22BEF7D78000B6DDA /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1C46E8112BF38FE3000B6DDA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C46E7F02BEF7CB3000B6DDA /* JSONDecoder.swift */,
+				1C46E80B2BF383E6000B6DDA /* JSONArticleDecoder.swift */,
+				1C46E8062BF22B5E000B6DDA /* Post.swift */,
+				1C46E80F2BF38AF8000B6DDA /* BasicJSONData.json */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +144,9 @@
 			dependencies = (
 			);
 			name = EvilNewsCorp;
+			packageProductDependencies = (
+				1C46E8092BF2497F000B6DDA /* Kingfisher */,
+			);
 			productName = EvilNewsCorp;
 			productReference = 1C46E7CE2BEF62D7000B6DDA /* EvilNewsCorp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +175,9 @@
 				Base,
 			);
 			mainGroup = 1C46E7C52BEF62D7000B6DDA;
+			packageReferences = (
+				1C46E8082BF2497F000B6DDA /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 1C46E7CF2BEF62D7000B6DDA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +194,7 @@
 			files = (
 				1C46E7DE2BEF62D8000B6DDA /* LaunchScreen.storyboard in Resources */,
 				1C46E7DB2BEF62D8000B6DDA /* Assets.xcassets in Resources */,
+				1C46E8102BF38DA4000B6DDA /* BasicJSONData.json in Resources */,
 				1C46E7D92BEF62D7000B6DDA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +206,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C46E8012BF0CAB2000B6DDA /* ArticleCell.swift in Sources */,
+				1C46E8072BF22B5E000B6DDA /* Post.swift in Sources */,
 				1C46E7D62BEF62D7000B6DDA /* ViewController.swift in Sources */,
+				1C46E80C2BF383E6000B6DDA /* JSONArticleDecoder.swift in Sources */,
+				1C46E7EC2BEF638D000B6DDA /* FontKit.swift in Sources */,
+				1C46E7F12BEF7CB3000B6DDA /* JSONDecoder.swift in Sources */,
 				1C46E7D22BEF62D7000B6DDA /* AppDelegate.swift in Sources */,
+				1C46E8132BF39667000B6DDA /* MainView.swift in Sources */,
+				1C46E7F32BEF7D78000B6DDA /* MainViewController.swift in Sources */,
+				1C46E7EA2BEF638D000B6DDA /* Attribute.swift in Sources */,
 				1C46E7D42BEF62D7000B6DDA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,11 +371,11 @@
 				DEVELOPMENT_TEAM = 3ZQF6A3V26;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EvilNewsCorp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.news";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +383,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = rihab.EvilNewsCorp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,11 +402,11 @@
 				DEVELOPMENT_TEAM = 3ZQF6A3V26;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EvilNewsCorp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.news";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +414,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = rihab.EvilNewsCorp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -363,6 +445,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1C46E8082BF2497F000B6DDA /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1C46E8092BF2497F000B6DDA /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1C46E8082BF2497F000B6DDA /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1C46E7C62BEF62D7000B6DDA /* Project object */;
 }

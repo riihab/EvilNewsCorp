@@ -1,0 +1,33 @@
+{
+    "articles": {
+        "current_page": 1,
+        "data": [{
+            "id": 175,
+            "title": "HSE will \u2018shut sites and issue fines for COVID-19 rule breaches\u2019",
+            "summary": "Employers that do not enforce social distancing measures could have works suspended and face fines, the Health and Safety Executive (HSE) has warned. The safety body, in a joint statement with the Trades Union Congress and Confederation of British Industry, said if it became aware of an employer not enforcing social distancing and similar measures, it would act. ",
+            "image": "\/api\/file\/app\/images\/articles\/1586293309virus_corona_generic_3d-render_2-620x330.jpg",
+            "date_published": "2020-04-07",
+            "feed": {
+                "id": 14,
+                "name": "SQA Latest News",
+                "logo": null
+            },
+            "categories": [{
+                "id": 4,
+                "name": "SQA"
+            }],
+            "view_count": 4,
+            "hasViewed": true
+        }],
+        "from": 1,
+        "last_page": 1,
+        "next_page_url": null,
+        "path": "https:\/\/scheck.swipeandtap.co.uk\/api\/articles\/latest",
+        "per_page": 20,
+        "prev_page_url": null,
+        "to": 13,
+        "total": 13
+    },
+    "error": false,
+    "message": ""
+}
